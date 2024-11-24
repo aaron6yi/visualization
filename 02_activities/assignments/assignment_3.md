@@ -20,10 +20,30 @@ The visualization cites credible data sources like the World Bank and Population
 ### Equity
 The visualization effectively highlights key demographic issues, including gender disparities and urban-rural population differences. However, it focuses heavily on urban areas like Seoul, potentially overlooking rural challenges. Socio-economic factors, which could provide a deeper understanding of inequality, are notably absent.
 
+## Bad：
+
+![Visualization: Spare Time Over a Lifetime](./2.png)
+
+### Accessibility
+- The heavy reliance on similar shades makes it hard for colorblind users to distinguish categories.
+- The labels are small and often overlap, making them difficult to read in crowded sections.
+- It’s a static visualization without interactivity or alternative formats for visually impaired users.
+
+### Reproducibility
+- There’s no mention of where the data came from or how activities were measured.
+- It doesn’t explain how the categories were defined or how the time allocation was recorded.
+- Without access to the tools or code, others can’t replicate the visualization.
+
+### Equity
+- Terms like "Time Wasters" impose value judgments that might not apply to everyone.
+- It fails to account for different cultural, social, or economic backgrounds, reducing its inclusiveness.
+- The focus on one narrative excludes broader patterns or diversity.
+
+
 ----
 
  - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
-    ## Good:
+    ## Good：
     ### Accessibility
     - Use colorblind-friendly palettes and increase font size for better readability.
     - Add interactive features, such as zoom and tooltips, to make it accessible for a broader audience.
@@ -31,15 +51,27 @@ The visualization effectively highlights key demographic issues, including gende
     ### Reproducibility
     - Provide raw datasets and include metadata for transparency.
     - Share detailed steps on data cleaning, aggregation, and visualization.
-    - Publish the code on platforms like GitHub to allow others to reproduce or adapt it.
-
+      
     ### Equity
     - Expand focus to include rural areas and smaller cities, ensuring more balanced geographic coverage.
     - Add socio-economic data (income levels, resource access) to deepen insights into inequalities.
     - Involve local perspectives to ensure cultural and contextual relevance.
 
 
-   
+    ### Bad：
+    ### Accessibility
+    - Use a colorblind-friendly palette or add patterns to differentiate categories.
+    - Introduce interactive features like tooltips or zooming for easier navigation.
+    
+    ### Reproducibility
+    - Provide the raw data and clearly explain how activities were tracked and categorized.
+    - Detail the methodology and tools used to create the visualization.
+      
+    ### Equity
+    - Replace subjective terms like "Time Wasters" with neutral labels such as "Leisure Activities."
+    - Include data from multiple individuals or demographic groups to make the visualization more inclusive.
+    - Add a note explaining that the visualization reflects a personal narrative rather than generalized trends.
+
 
 - Word count should not exceed (as a maximum) 300 words for each visualization. 
 
@@ -67,9 +99,9 @@ The visualization effectively highlights key demographic issues, including gende
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-3`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x] Create a branch called `assignment-3`.
+- [x] Ensure that the repository is public.
+- [x] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-3-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
