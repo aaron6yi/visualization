@@ -6,19 +6,40 @@
 - Let’s return to the data visualizations we evaluated for Assignment 2.  
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
-        ```
-        Your answer...
+       
+## Good:
+
+![South Korea Population Density & Demographics](./1.png)
+
+### Accessibility
+The visualization is visually appealing and well-organized, making it easy to navigate. Clear color gradients and labeled sections help viewers quickly grasp population density and demographic trends. However, it heavily relies on colors that may not be suitable for colorblind users, and the small font size can make details hard to read. Interactivity is also missing, which limits its usability for users with disabilities.
+
+### Reproducibility
+The visualization cites credible data sources like the World Bank and Population Censuses, which supports its reliability. The use of standard visualization methods, such as hexagonal grids and line charts, makes it theoretically reproducible. However, it does not provide raw data, detailed processing steps, or code, which makes replication difficult for others.
+
+### Equity
+The visualization effectively highlights key demographic issues, including gender disparities and urban-rural population differences. However, it focuses heavily on urban areas like Seoul, potentially overlooking rural challenges. Socio-economic factors, which could provide a deeper understanding of inequality, are notably absent.
+
+----
+
+ - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?
+    ## Good:
+    ### Accessibility
+    - Use colorblind-friendly palettes and increase font size for better readability.
+    - Add interactive features, such as zoom and tooltips, to make it accessible for a broader audience.
+
+    ### Reproducibility
+    - Provide raw datasets and include metadata for transparency.
+    - Share detailed steps on data cleaning, aggregation, and visualization.
+    - Publish the code on platforms like GitHub to allow others to reproduce or adapt it.
+
+    ### Equity
+    - Expand focus to include rural areas and smaller cities, ensuring more balanced geographic coverage.
+    - Add socio-economic data (income levels, resource access) to deepen insights into inequalities.
+    - Involve local perspectives to ensure cultural and contextual relevance.
 
 
-
-        ```
-    - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
-        ```
-        Your answer...
-
-
-
-        ```
+   
 
 - Word count should not exceed (as a maximum) 300 words for each visualization. 
 
